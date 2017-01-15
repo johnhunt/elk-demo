@@ -1,0 +1,6 @@
+{
+    "require": {
+        "monolog/monolog": "^1.22",
+        "nulpunkt/monolog-elasticsearch-logstashformat": "^1.0"
+    }
+}
