@@ -8,7 +8,6 @@ require_once('logger-setup.php');
 // Throw a silly warning message
 $logger->warn('Ledger mismatch! Account not balanced!',
 ['context' => 'accounting']);
-die('ook');
 
 // Throw a silly error message
 $logger->error('Unhandled exception! Procotol failure!',
