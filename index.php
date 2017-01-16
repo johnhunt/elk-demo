@@ -20,10 +20,12 @@ $logger->info('A/B test conversion hit',
 'data' => 'Red']);
 
 // On another page this might happen (50/50 a/b test)
+for ($i=0; $i < 10; $i++) { // simulate 10 hits (green is good)
 $logger->info('A/B test conversion hit',
 ['context' => 'abtests',
 'testcase' => 'Button colours',
 'data' => 'Green']);
+}
 
 
 // Send the user a nice, vague message
